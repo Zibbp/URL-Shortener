@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+}
+
+.error {
+  background: #a63446;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input,
+.button {
+  margin: 1rem 0;
+  max-width: 100%;
+}
+
+.input {
+  font-family: inherit;
+  padding-bottom: 1rem;
+  background: none;
+  border: none;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  text-align: center;
+  font-size: 1.25rem;
+  caret-color: #00ffff;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom-color: #00ffff;
+}
+
+.input::placeholder {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.15rem;
+  color: #262626;
+  border: none;
+  background-color: #00ffff;
+  padding: 0.75em 1.25rem;
+}
+
+.copy {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.15rem;
+  border: none;
+  background-color: #00ffff;
+  padding: 1px;
+  padding-bottom: 2px;
+}
+
+.success {
+  border: 2px dashed #00ffff;
+  padding: 20px;
+  font-family: inherit;
+  color: gray;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.url {
+  text-decoration: none;
+  color: white;
+}
