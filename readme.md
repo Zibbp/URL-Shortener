@@ -1,4 +1,3 @@
-<br/>
 <p align="center">
     <h1>URL Shortener</h1>
 </p>
